@@ -1,0 +1,44 @@
+
+body a:link{
+    text-decoration: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.body-part{
+    font-family: Roboto;
+    margin-top: 15px
+}
+.body-part{
+    text-align: ;
+}
+
+
+
+
+.forgot-pass{
+    float: right;
+}
+
+.forgot-pass a{
+    
+}
+.password{
+    margin-top: 25px;
+}
+
+img{
+width: 100%;
+}
+
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+.back2home{
+    margin-top: 25px;
+    float: right;
+}

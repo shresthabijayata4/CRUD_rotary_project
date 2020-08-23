@@ -1,0 +1,553 @@
+
+
+
+/* ==================hover properties===================== */
+ body a{
+	 text-decoration: none;
+	 color: black;
+
+ }
+ body a:hover{
+	 text-decoration: none;
+	 color: pink;
+ }
+
+
+
+
+
+
+/*starting of logo and banner part*/
+body {
+	overflow-x: hidden; 
+	font-family: 'Roboto';
+
+}
+
+.header{
+	width: 100%;
+
+	position: fixed;
+	z-index: 9999;
+	top: 0;background-color: white;
+}
+
+.footerhead .col-sm-3{
+	background-color: #4f4f8a;
+	height: 40px;
+	color: white;
+	padding-top: 10px;
+	
+}
+/* .footerhead a:link{
+	
+	text-decoration: none;
+
+} */
+.contact-info{
+	text-align: center;
+}
+.icons{
+	text-align: center;
+}
+.icons span{
+	padding: 5px;
+}
+.contact-info .phone-no{
+	margin-left: 10px;
+}
+.mail-address{
+	margin-left: 10px;
+}
+
+
+
+/* ======== logo bannner ============ */
+.lo_ba{
+	
+
+	height: 110px;
+
+}
+.logo{
+	float: left;
+	width:15%;
+	text-align:center ;
+}
+.banner{
+	float:right;
+	width: 28%;
+	height: 130px; 
+}
+/* starting of menu */
+.menu{
+	/* padding:20px;  */
+	display: block;
+	margin: 0px;
+	overflow: hidden;
+
+	font-size: inherit;
+	 color: black;
+	 /* margin-left: 3px; */
+	 width: 57%;
+	 padding-top: 55px;
+	
+
+}
+.menu a:hover{
+	text-decoration: none;
+	color:red ;
+
+}
+.menu a{
+	color:#041442;
+}
+.menu a:active{
+background: red ;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+
+.menuitem{
+	display: block;
+	float: left;
+	padding: 0px 0px;
+	display: block;
+	width: 20%;
+	text-align: center;
+	/* font-family:"Perpetua"; */
+	
+	letter-spacing: 0.3px;
+	font-weight: 600;
+	border-right: 0px solid;
+}
+
+
+
+.menuitem:nth-child(6){
+border-right: none;
+float: right;
+}
+/* main section continues */
+
+.walpaper{
+	position:relative;
+	padding-top: 15px;
+	margin-top:150px;
+	
+}
+.walpaper .button1{
+	border: none;
+	border-radius: 10px;
+	color: white;
+	padding: 10px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: inherit;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: #4f4f8a;
+	letter-spacing: 0px;
+	font-weight: 500;	
+
+}
+
+
+.homecontent {
+        color: white;
+        font-weight:bolder;
+        border: 0px solid #f1f1f1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: larger;
+        font-family:"";
+		text-transform: uppercase;
+	
+      }
+
+
+.homecontent h1{
+	font-size: 50px;
+	text-transform: uppercase;
+    /* text-shadow:1.5px 1.5px black; */
+    text-shadow:1.5px 1.5px black;
+}
+.homecontent h2{
+    /* text-shadow: 1px 1px black; */
+    text-shadow: 1px 1px black;
+} 
+.overlay{
+    position: absolute; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(20, 0, 0, 0.3); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+.button {
+	background-color: #4f4f8a;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+.button1 a{
+	color: white;
+}
+
+
+/* ==================aboutus======================== */
+.container{
+	margin: 50px 0px;
+}
+
+.title h1{
+	font-weight: 600;
+}
+.img1{
+	max-width: 450px;
+	padding-right: 100px;
+margin-top: 30px;
+text-align: center;}
+
+#more{
+	display: none;
+}
+
+
+
+/* ======== resources ====== */
+
+.resource-title{
+	text-align: center;
+}
+#resources .row{
+	/* margin: 80px 60px 60px; */
+	text-align: center;
+	height: 380px;
+}
+
+#resources .row i{
+	font-size: 60px;
+	
+}
+#resources .row .col-sm-3{
+	padding: 50 px;
+	font-family: Roboto;
+}
+#resources .button1{
+	color: #202c45;
+    background-color: rgba(40,91,246,0);
+    margin: 15px 0 0 0;
+    padding: 15px 30px 15px 30px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: rgba(32,44,69,1);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: normal;
+	letter-spacing: 1px;
+	vertical-align: text-bottom;
+}
+#resources .button1:hover{
+	background-color: #4f4f8a;
+	color: white;
+}
+
+
+
+
+
+
+/* ============ Message ============= */
+
+.message-title{
+	text-align: center;
+}
+.Message-from-leaders{
+
+	margin:50px 35px 35px 35px;
+
+	text-align: center;
+	height: 470px;
+	
+	font-family: Roboto;
+
+}
+.Message-from-leaders img{
+	height: 270px;
+}
+.Message-from-leaders .content{
+	padding-top: 20px;
+}
+.Message-from-leaders .content p{
+	padding-top: 10px;
+	color: #666666;
+	font-weight: 500;
+}
+
+.Message-from-leaders .content .button1{
+	margin-top: 10px;
+}
+.Message-from-leaders span{
+	font-size: large;
+	font-weight: 600;
+	color: #4f4f8a;
+	
+}
+.content .button1{
+	/* color: #fff;
+    background-color: #4f4f8a;
+    margin: 10px 0 15px 0;
+    padding: 10px 30px 15px 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: normal;
+	letter-spacing: 1px; */
+	padding: 5px 20px;
+	background-color: #4f4f8a;
+	color: white;
+
+}
+
+.content .button1:hover{
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+}
+
+
+/* ===================walpaper================== */
+/* .student-walpaper{
+background-image: url("students.jpg");
+
+min-height: 500px; 
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* ===========================JOIN uS========================== */
+.join-us{
+	margin: 0px 100px;
+	background-image:
+	/* linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), */
+	linear-gradient(rgba(32,44,70,0.96),rgba(32,44,70,0.96)),
+	url(../images/walpaper1.jpg) ;
+	
+	height: 600px; 
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.join-us .row{
+	padding: 0px 0px;
+}
+.paragraph{
+	padding: 70px 90px 0px 70px ;
+	/* text-align: center; */
+}
+.global-movement{
+	font-size:large;
+
+}
+.title-content{
+	margin-top: 30px;
+}
+
+.title-content .title{
+	font-size: 34px;
+	
+	letter-spacing: 1px;
+
+	
+}
+.content{
+	margin-top: 20px;
+}
+.member-1{
+	display: block;
+	float: left;
+	padding: 0px 0px;
+	display: block;
+	width: 42%;
+	height: 170px;
+	text-align: center;
+	/* font-family:"Perpetua"; */
+	
+	letter-spacing: 0.3px;
+	font-weight: 600;
+	border: 1px solid;
+	border-style: dotted;
+	width: 30%;
+	margin: 30px 0px 30px;
+	padding: 20px;
+
+}
+.member-1 i{
+	font-size: 40px;
+	color: yellow;
+	
+
+}
+.number-member{
+	font-size: 30px;
+	padding: 10px 0px;
+	
+
+}
+.numberof-member{
+	font-size: initial;
+}
+
+.request{
+	text-align: center;
+	font-size: 23px;
+	letter-spacing: 0px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+.col-sm-5 .form-group{
+	margin-top: 30px;
+	padding: 0px 30px;
+}
+
+.form-group .btn-primary{
+	margin: 30px;
+}
+
+
+
+
+
+
+
+
+/* ======================partners==================== */
+
+.partners{
+	margin: 60px 70px;
+	height: 250px;
+}
+.our-partners{
+	text-align: center;
+}
+.partner-items{
+
+	margin: 0 px 50 px;
+
+
+}
+.partneritem img{
+	padding: 25px;
+	width: 20%;
+
+	float: left;
+}
+
+
+/* ==================footer================ */
+
+.footer-lowermenu{
+	height: 50px;
+	background-color: #101c35;
+	color: white;
+	
+}
+.footer-uppermenu{
+	background-color: #202c45 ;
+	height: 250px;
+	color: white;
+	padding: 40px 70px;
+}
+footer ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+.imp-links{
+	margin: 0px;
+}
+.imp-links li{
+	padding-top: 15px;
+}
+.imp-links a{
+	color: #ff3169;
+}
+.imp-links a:hover{
+	color: pink;
+}
+
+
+.footer-contacts li{
+	padding-top: 25px;
+}
+.footer-contacts span{
+
+padding-left: 10px;
+}
+.class-label{
+	margin-top: 20px;
+}
+.copy-right{
+	margin-left: 50px;
+	padding-top: 10px;
+}
+.footr-icons ul{
+	list-style-type: none;
+}
+.footer-icons  li{
+	display: inline;
+	padding: 0px 10px;
+
+	
+}
+.footer-icons{
+	text-align: center;
+	padding-top: 10px;
+	font-size: medium;
+}
+.footer-icons a{
+	color: white;
+}
+
+
+
+
+
+
